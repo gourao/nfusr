@@ -12,5 +12,5 @@ spec:
     securityContext:
       privileged: true	
     command: ["/usr/local/bin/nfusr"]
-    args: ["-f", "nfs://172.31.53.180/PVC", "/data"]
+    args: ["-f", "nfs://NETAPP_IP/trident_pvc_faba8030_57f4_4b62_9976_593633f17327", "/data"]
   restartPolicy: OnFailure
